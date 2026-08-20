@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(117, 113, 110);
+}
+
+footer {
+    background-color: rgb(77, 66, 66);
+    color: rgb(19, 1, 1);
+    text-align: center;
+    padding: 100px;
+}
+header{
+    background-color:rgb(66, 172, 233);
+    color:black;
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size:100px;
+    font-style:italic;
+}
+h1{
+    color:black;
+    text-align: center;
+    background-color: aqua;
+    font-family: "Times New Roman";
+    font-size:50px;
+    font-style:italic;
+}
+li:hover {
+color: rgb(218, 17, 17);
+}
+  div1
+          {
+            position:absolute;
+            right:0;
+            top:0;
+            padding:100px 100px 100px 100px;
+            width:300px;
+            height:100px;
+            background-color:red;
+            animation-name: anime; 
+            animation-duration: 10ms;
+            animation-iteration-count: infinite;
+        }
+        @keyframes anime{
+            0% {background-color:red;}
+
+50% {background-color:rgb(194, 235, 13);}
+
+100% {background-color:red;}
+        }
